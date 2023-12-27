@@ -1,0 +1,83 @@
+
+.navbar{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width:100%;
+  height: 65px;
+  background-color:white;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.logonav{
+  display: flex;
+  gap:8px;
+}
+
+.ullist ul{
+  display: flex;
+  list-style-type: none;
+  flex-direction: row;
+  gap:15px;
+  font-weight: 500;
+  
+}
+.navButton{
+  width:110px;
+  height:35px;
+  background-color: #1D4ED8;
+  color:white;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+}
+.menuicon{
+  display:none;
+}
+.footer img{
+  background: transparent;
+  background-color: #eaf3fc;
+}
+.footer{
+  background-color: #eaf3fc;
+  width:100%;
+  height:350px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  margin-top: 60px;
+}
+.details ul{
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  gap:15px;
+}
+.icons{
+  display:flex;
+  flex-direction: row;
+  gap:25px;
+
+}
+.icons .icon-link i {
+color:black;
+font-size: 20px;
+}
+
+.cardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; 
+}
+
+.EachCard {
+  width: 300px;
+  height: 200px; 
+  border: 1px solid #ccc;
+  padding: 10px; 
+  
+}
